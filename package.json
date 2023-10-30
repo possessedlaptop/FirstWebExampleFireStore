@@ -1,8 +1,8 @@
 {
   "name": "firebase-example",
   "version": "0.1.0",
-  "homepage": "https://github.com/possessedlaptop/FirstWebExampleFireStore.git",
-  "private": true,
+  "homepage": "https://possessedlaptop.github.io/FirstWebExampleFireStore",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

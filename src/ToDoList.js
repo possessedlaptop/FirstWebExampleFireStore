@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { collection, onSnapshot, addDoc, query, orderBy, doc, updateDoc, getFirestore, getDoc, getDocs, where, setDoc, deleteDoc } from "firebase/firestore";
+import { collection, onSnapshot, addDoc, query, orderBy, doc, updateDoc, deleteDoc } from "firebase/firestore";
 import { firestore } from "./firebase";
 import { AiFillDelete } from "react-icons/ai";
 
@@ -77,29 +77,6 @@ const ToDoList = () => {
 
         setLoading(false);
     }
-
-    const handleToggleCompleted = async (id) => {
-        // Find the todo with the given id
-        const todoToUpdate = todos.find((todo) => todo.id === id);
-    
-        // Update the completed property of the todo
-        const updatedTodo = {
-            ...todoToUpdate,
-            completed: !todoToUpdate.completed,
-        };
-    
-        // Update the todos state with the updated todo object
-        const updatedTodos = todos.map((todo) =>
-            todo.id === id ? updatedTodo : todo
-        );
-        setTodos(updatedTodos);
-    
-        // Update the completed property of the todo in the Firestore collection
-        const docRef = doc(db, "todos", id);
-        await updateDoc(docRef, {
-            completed: updatedTodo.completed,
-        });
-    };
 
     const updateCheck = async (id) => {
         // Find the todo to update based on the id parameter
