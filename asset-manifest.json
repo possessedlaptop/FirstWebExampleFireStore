@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/possessedlaptop/FirstWebExampleFireStore.git/static/css/main.073c9b0a.css",
+    "main.js": "/possessedlaptop/FirstWebExampleFireStore.git/static/js/main.00334e2c.js",
+    "static/js/787.8ec2c039.chunk.js": "/possessedlaptop/FirstWebExampleFireStore.git/static/js/787.8ec2c039.chunk.js",
+    "static/media/logo.svg": "/possessedlaptop/FirstWebExampleFireStore.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/possessedlaptop/FirstWebExampleFireStore.git/index.html",
+    "main.073c9b0a.css.map": "/possessedlaptop/FirstWebExampleFireStore.git/static/css/main.073c9b0a.css.map",
+    "main.00334e2c.js.map": "/possessedlaptop/FirstWebExampleFireStore.git/static/js/main.00334e2c.js.map",
+    "787.8ec2c039.chunk.js.map": "/possessedlaptop/FirstWebExampleFireStore.git/static/js/787.8ec2c039.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.00334e2c.js"
+  ]
+}
